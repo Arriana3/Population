@@ -9,9 +9,9 @@ int main()
 	
 	cout << "What is the starting number of organisims? " << endl;
 	cin >> Start;
-	cout << "At what rate are they incresing? (as a percent) \n";
+	cout << "At what rate are they incresing? (as a percent decimal) \n";
 	cin >> increase;
-	cout << "How many days have past? \n";
+	cout << "How many days have past? \n"; 
 	cin >> Days;
 	while (Start < 2 || increase < 0 || Days < 1) 
 	{
